@@ -8,6 +8,8 @@ gem 'coffee-rails', '4.2.2'
 gem 'jquery-rails', '4.3.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.7.0'
+gem 'bootstrap', '~> 4.1.1'
+gem 'mini_racer'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
@@ -19,6 +21,7 @@ group :development do
   gem 'listen',                '3.1.5'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
+  gem 'pry-byebug'
 end
 
 group :test do
