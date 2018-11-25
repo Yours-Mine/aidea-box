@@ -1,2 +1,14 @@
-<h1>TopPages#home</h1>
-<p>Find me in app/views/top_pages/home.html.erb</p>
+<% @feeds.each do |feed| %>
+<div class="box1">
+  <p style="text-align: center; font-size: 24px;"><%= feed.title %></p>
+</div>
+<% end %>
+    <div class="mx-auto" style="width: 240px;">
+        <input type="button"  value="もっとアイディアが欲しい" onclick="koshin()" style="margin-top: 20px;" class="cp_btn">
+    </div>
+<script>
+function koshin(){
+  location.reload();
+}
+</script>
+
