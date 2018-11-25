@@ -42,7 +42,7 @@
                      "https://thesaurus.weblio.jp/category/nwnts/ko-uu/#{i}")
   end
   (1..13).each do |i|
-    urls = urls.push("https://thesaurus.weblio.jp/category/nwnts/ku#{i}")
+    urls = urls.push("https://thesaurus.weblio.jp/category/nwnts/ku/#{i}")
   end
   (1..7).each do |i|
     urls = urls.push("https://thesaurus.weblio.jp/category/nwnts/ka-nn/#{i}",
@@ -660,7 +660,7 @@
                    "https://thesaurus.weblio.jp/category/nwnts/ko-pe",
                    "https://thesaurus.weblio.jp/category/nwnts/ko-po",
                    "https://thesaurus.weblio.jp/category/nwnts/ko-sign",
-                   ""
+                   "https://thesaurus.weblio.jp/category/nwnts/sa-aa"
                    )
   
 
