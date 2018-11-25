@@ -5,8 +5,8 @@
  
   namespace :scrape do
    
-   task :sample_title => :environment do #開発環境のみ実行
-   
+   #task :sample_title => :environment do #開発環境のみ実行
+   task :sample_title => :production do
   #(1..300).each do |i|
     #Url.create!(url: "https://www.weblio.jp/category/dictionary/aa/#{i}")
   #end
